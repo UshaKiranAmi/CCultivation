@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void) {
+  //increment decrement operators   ++   --
+
+  int value = 50;
+
+  //increases value by 1 
+  value++; //  50 + 1 = 51
+  printf("Value is %d",value);
+
+  //decreases value by 1 
+  value--;
+  printf("\nValue is %d",value);
+
+  value--;
+  printf("\nValue is %d",value);
+
+  //try editing the program with different values and check the result for deeper understanding
+  return 0; 
+}
