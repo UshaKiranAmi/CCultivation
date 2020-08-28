@@ -1,0 +1,32 @@
+#include <stdio.h>
+int main()
+{
+  //Arithemetic Operators  +  -  *  /  %
+  
+  int a = 10,b = 3;
+
+  int result = a + b; 
+  printf("Addition = %d",result);
+
+  result = a - b; 
+  printf("\nSubtraction = %d",result);
+
+  result = a * b; 
+  printf("\nMultiplication = %d",result);
+
+  result = a / b; 
+  // will return quotient of division
+  printf("\nDivision = %d",result);
+
+  result = a % b; 
+  // will return reminder of division
+  /*
+    don't get confused wiht the words Modulo & Modulus
+    the operator(%) id called the modulo where as, 
+    the devisior(b) id called the modulus
+  */
+  printf("\nModulo = %d",result);
+  
+  //try editing the program with different values for deeper understanding
+return 0;
+}
