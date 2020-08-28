@@ -1,7 +1,10 @@
 #include <stdio.h>
 int main()
 {
-  //Arithemetic Operators  +  -  *  /  %
+  /*
+    Arithemetic Operators  
+    +  -  *  /  %
+  */
   
   int a = 10,b = 3;
 
