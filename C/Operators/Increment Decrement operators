@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 int main(void) {
-  //increment decrement operators   ++   --
-
+  /*
+    increment decrement operators   
+    ++   --
+  */
+  
   int value = 50;
 
   //increases value by 1 
